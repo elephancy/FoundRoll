@@ -83,7 +83,7 @@ Immediately after recording, save a private text receipt alongside the frozen re
 | Field | Authoritative source |
 | --- | --- |
 | Submitted commit/tag | Public `v1.0.0` Git tag and the immutable commit it resolves to |
-| Repository/tag and judge access | Anonymous checkout of `https://github.com/mahmoudelfeelig/found-roll` at `v1.0.0` |
+| Repository/tag and judge access | Anonymous checkout of `https://github.com/elephancy/found-roll` at `v1.0.0` |
 | Fixture version | Frozen release record; expected release fixture is `camera-pouch-v1` |
 | App Cloud Run revision | Final canonical-run receipt and Cloud Run revision page shown in the take |
 | Simulator Cloud Run revision | Final canonical-run receipt and Cloud Run revision page shown in the take |

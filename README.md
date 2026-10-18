@@ -4,7 +4,7 @@ Found Roll is a policy-bound recovery workflow for lost property that falls betw
 
 The product is designed like practical early-2010s photo-organizer software rather than a contemporary AI dashboard. The agent is visible through its work and audit trail, not through a chat interface.
 
-Public source: [github.com/mahmoudelfeelig/found-roll](https://github.com/mahmoudelfeelig/found-roll). Found Roll's original project code is MIT-licensed; bundled-template and third-party boundaries are recorded in `NOTICE.md` and `THIRD_PARTY_NOTICES.md`.
+Public source: [github.com/elephancy/found-roll](https://github.com/elephancy/found-roll). Found Roll's original project code is MIT-licensed; bundled-template and third-party boundaries are recorded in `NOTICE.md` and `THIRD_PARTY_NOTICES.md`.
 
 ## What the demo proves
 
@@ -42,7 +42,7 @@ For a free local review, install the locked dependencies described below and run
 The complete local evidence path uses the same locked dependencies and PowerShell gate as [CI](.github/workflows/verify.yml). For an exact CI match, use Node.js 24.11.0, Python 3.13.13, npm, and PowerShell 7. From a fresh clone:
 
 ```powershell
-git clone https://github.com/mahmoudelfeelig/found-roll.git
+git clone https://github.com/elephancy/found-roll.git
 cd found-roll
 npm ci --no-audit --no-fund
 python -m venv service/.venv

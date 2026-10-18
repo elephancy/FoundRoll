@@ -99,7 +99,7 @@
     "judge_access_verified": false
   },
   "repository": {
-    "url": "https://github.com/mahmoudelfeelig/found-roll",
+    "url": "https://github.com/elephancy/found-roll",
     "commit_sha": "<exact-head-commit>",
     "tree_sha": "<exact-head-tree>",
     "release_tag": "<release-tag>",

@@ -151,9 +151,9 @@ Fixture hashes recorded during drafting; regenerate and compare them at release 
 | Submission field | Final value |
 | --- | --- |
 | Hosted project | [Found Roll Completed Case Story](https://foundroll.elfeel.me/), with the direct [Cloud Run deployment](https://found-roll-app-1061926987746.us-central1.run.app/) retained as Google Cloud proof; the protected flow belongs in the final continuous demo |
-| Repository and judge access | [Public MIT repository](https://github.com/mahmoudelfeelig/found-roll); the immutable submission tag is pending the freeze gate |
-| Architecture | [Architecture and authority boundaries](https://github.com/mahmoudelfeelig/found-roll/blob/main/docs/architecture.md) and the [rendered diagram](https://github.com/mahmoudelfeelig/found-roll/blob/main/docs/architecture-diagram.png) |
-| Evaluation report | [Local evaluation with explicit canonical limits](https://github.com/mahmoudelfeelig/found-roll/blob/main/docs/evaluation.md) |
+| Repository and judge access | [Public MIT repository](https://github.com/elephancy/found-roll); the immutable submission tag is pending the freeze gate |
+| Architecture | [Architecture and authority boundaries](https://github.com/elephancy/found-roll/blob/main/docs/architecture.md) and the [rendered diagram](https://github.com/elephancy/found-roll/blob/main/docs/architecture-diagram.png) |
+| Evaluation report | [Local evaluation with explicit canonical limits](https://github.com/elephancy/found-roll/blob/main/docs/evaluation.md) |
 | Demo video | Pending: publish a privacy-reviewed public YouTube/Vimeo player under four minutes, then supply it through Devpost's dedicated video field |
 | Public proof-of-action | Not implemented or published. It remains a future release-checklist item requiring explicit authorization and separate privacy review; it is not a substitute for private five-run evidence or proof of a real-world outcome. |
 | Submitted commit | Pending the immutable public tag created after the full verifier passes |
