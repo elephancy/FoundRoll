@@ -1,4 +1,4 @@
-name: verify
+name: CI
 
 on:
   push:
@@ -9,8 +9,8 @@ permissions:
   contents: read
 
 concurrency:
-  group: verify-${{ github.ref }}
-  cancel-in-progress: true
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   local-contracts:
@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Check out submitted source
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          persist-credentials: false
 
       - name: Use Node.js 24.11.0
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
@@ -74,6 +76,8 @@ jobs:
     steps:
       - name: Check out submitted source
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          persist-credentials: false
 
       - name: Build app and simulator images
         run: |
