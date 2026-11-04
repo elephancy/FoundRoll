@@ -1,5 +1,7 @@
 # Found Roll
 
+> **Archived project:** The former hosted demo and its direct Cloud Run endpoint are retired. The descriptions below document the prototype and its historical review workflow; use the local instructions to explore the source.
+
 Found Roll is a policy-bound recovery workflow for lost property that falls between separate custodians. Deterministic policy fixes the eligible candidate packet and allowed private discriminator. A bounded Gemini/Google ADK analyst may inspect that authorized packet and propose source-linked observations plus one non-leading question; deterministic code owns claim-evidence acceptance, identity and approval gates, custody state, one-time credentials, idempotency, and the final event manifest.
 
 The product is designed like practical early-2010s photo-organizer software rather than a contemporary AI dashboard. The agent is visible through its work and audit trail, not through a chat interface.
@@ -33,7 +35,7 @@ The hosted browser has three reusable runtime credential boundaries, not one sha
 
 ## Judge testing
 
-The public [Completed Case Story](https://foundroll.elfeel.me/) is the quickest no-credential check: it proves that the hosted root is read-only, redacted, and visually grounded in a closed synthetic case. The same build remains available at its direct [Cloud Run URL](https://found-roll-app-1061926987746.us-central1.run.app/) so reviewers can verify the Google Cloud runtime without relying on the custom hostname. Neither route can mutate a case, reveal protected media, or stand in for the protected workflow.
+The former public Completed Case Story presented a read-only, redacted view of a closed synthetic case. Its hosted endpoints are retired; the local prototype and tests below remain available for reviewing the source and its intended behavior.
 
 For a free local review, install the locked dependencies described below and run `npm test` plus `service\.venv\Scripts\python.exe -m pytest service\tests`. Those checks exercise the deterministic fixture, evidence/consent boundaries, auto-queue contract, state transitions, retries, and privacy surfaces without Google Cloud credentials, paid APIs, user media, or a billing account. They prove local contracts only; live Google Cloud claims require a separately frozen tagged release and its private evidence gate.
 
@@ -60,7 +62,7 @@ With Google Chrome installed, the public-page viewport and redaction check is al
 npm run qa:design
 ```
 
-The local gate uses no Gemini or Google Cloud calls, credentials, paid APIs, user media, or billing account. It proves deterministic local contracts only; the custom hostname is the polished public route, while the direct `.run.app` URL and recorded Cloud Console evidence establish the live Google Cloud deployment.
+The local gate uses no Gemini or Google Cloud calls, credentials, paid APIs, user media, or billing account. It proves deterministic local contracts only; it does not establish a current hosted Google Cloud deployment.
 
 ## 90-second judge route
 
